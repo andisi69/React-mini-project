@@ -30,6 +30,7 @@ function Movies() {
     const handlePrevPage = () => {
         if(inputValue > 1) {
             setInputValue(inputValue - 1)
+            window.scrollTo(0, 0)
         }
     }
 
